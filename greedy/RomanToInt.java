@@ -3,7 +3,7 @@ import java.util.*;
 
 public class RomanToInt {
   public static void main(String[] args) {
-     System.out.println(romanToInt("MCMXCIV"));
+     System.out.println(romanToInt("IV"));
 
   }
 
@@ -11,10 +11,9 @@ public class RomanToInt {
   private static int romanToInt(String s) {
     Map<String, Integer> map = init();
     int res = 0;
-    for (int i = 0; i < s.length() - 1; i++) {
-      if (map.containsKey(s.substring(i, i + 2))) {
+    for (int i = 0; i < s.length(); i++) {
+      if ((i < s.length() - 1) && map.containsKey(s.substring(i, i + 2))) {
         res += map.get(s.substring(i, i + 2));
-        i++;
       } else {
         res += map.get(s.substring(i, i + 1));
       }
