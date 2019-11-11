@@ -6,6 +6,7 @@ public class LongestCommonPrefix {
 
 
   private static String longestCommonPrefix(String[] strs) {
+    if (strs.length < 1) return "";
     String res = strs[0];
     StringBuilder sb = null;
     for (int i = 1; i < strs.length; i++) {
@@ -18,6 +19,7 @@ public class LongestCommonPrefix {
         }
       }
       res = sb.toString();
+      if (res.equals("")) return res;
     }
 
     return res;
