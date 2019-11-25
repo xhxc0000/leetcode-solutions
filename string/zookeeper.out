@@ -1,0 +1,37 @@
+2019-11-22 08:23:36,414 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /usr/local/zookeeper-3.4.11/bin/../conf/zoo.cfg
+2019-11-22 08:23:36,419 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2019-11-22 08:23:36,420 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2019-11-22 08:23:36,420 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2019-11-22 08:23:36,420 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2019-11-22 08:23:36,431 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /usr/local/zookeeper-3.4.11/bin/../conf/zoo.cfg
+2019-11-22 08:23:36,431 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2019-11-22 08:23:36,439 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+2019-11-22 08:23:36,439 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=xhxc-TM1607
+2019-11-22 08:23:36,439 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_211
+2019-11-22 08:23:36,439 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2019-11-22 08:23:36,439 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/local/jdk1.8.0_211/jre
+2019-11-22 08:23:36,440 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/usr/local/zookeeper-3.4.11/bin/../build/classes:/usr/local/zookeeper-3.4.11/bin/../build/lib/*.jar:/usr/local/zookeeper-3.4.11/bin/../lib/slf4j-log4j12-1.6.1.jar:/usr/local/zookeeper-3.4.11/bin/../lib/slf4j-api-1.6.1.jar:/usr/local/zookeeper-3.4.11/bin/../lib/netty-3.10.5.Final.jar:/usr/local/zookeeper-3.4.11/bin/../lib/log4j-1.2.16.jar:/usr/local/zookeeper-3.4.11/bin/../lib/jline-0.9.94.jar:/usr/local/zookeeper-3.4.11/bin/../lib/audience-annotations-0.5.0.jar:/usr/local/zookeeper-3.4.11/bin/../zookeeper-3.4.11.jar:/usr/local/zookeeper-3.4.11/bin/../src/java/lib/*.jar:/usr/local/zookeeper-3.4.11/bin/../conf:.:/usr/local/jdk1.8.0_211/lib/dt.jar:/usr/local/jdk1.8.0_211/lib/tools.jar
+2019-11-22 08:23:36,440 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2019-11-22 08:23:36,440 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2019-11-22 08:23:36,440 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2019-11-22 08:23:36,441 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2019-11-22 08:23:36,441 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2019-11-22 08:23:36,441 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.15.0-66-generic
+2019-11-22 08:23:36,441 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=xhxc
+2019-11-22 08:23:36,441 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/xhxc
+2019-11-22 08:23:36,441 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/xhxc/git/leetcode-solutions/string
+2019-11-22 08:23:36,448 [myid:] - INFO  [main:ZooKeeperServer@825] - tickTime set to 2000
+2019-11-22 08:23:36,448 [myid:] - INFO  [main:ZooKeeperServer@834] - minSessionTimeout set to -1
+2019-11-22 08:23:36,448 [myid:] - INFO  [main:ZooKeeperServer@843] - maxSessionTimeout set to -1
+2019-11-22 08:23:36,459 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2019-11-22 08:23:36,464 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2019-11-22 09:20:12,326 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /10.5.48.115:38940
+2019-11-22 09:20:12,347 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x0, likely client has closed socket
+2019-11-22 09:20:12,347 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1040] - Closed socket connection for client /10.5.48.115:38940 (no session established for client)
+2019-11-22 09:20:12,827 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /10.5.48.115:38942
+2019-11-22 09:20:12,839 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@938] - Client attempting to establish new session at /10.5.48.115:38942
+2019-11-22 09:20:12,843 [myid:] - INFO  [SyncThread:0:FileTxnLog@209] - Creating new log file: log.13a
+2019-11-22 09:20:12,858 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@683] - Established session 0x10010910fad0000 with negotiated timeout 30000 for client /10.5.48.115:38942
+2019-11-22 09:20:13,024 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x10010910fad0000 type:create cxid:0x4 zxid:0x13c txntype:-1 reqpath:n/a Error Path:/dubbo/com.stylefeng.guns.rest.modular.user.UserAPI/configurators Error:KeeperErrorCode = NodeExists for /dubbo/com.stylefeng.guns.rest.modular.user.UserAPI/configurators
+2019-11-22 09:22:29,336 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x10010910fad0000
+2019-11-22 09:22:29,346 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1040] - Closed socket connection for client /10.5.48.115:38942 which had sessionid 0x10010910fad0000
