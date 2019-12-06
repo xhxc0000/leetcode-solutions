@@ -23,27 +23,4 @@ public class CompareVersion {
 
     return 0;
   }
-
-
-
-  public static int what(String s1, String s2) {
-    int i = 0, j = 0;
-    while (i < s1.length() || j < s2.length()) {
-        int x = i, y = j;
-        while (x < s1.length() && s1.charAt(x) != '.') x++;
-        while (y < s2.length() && s2.charAt(y) != '.') y++;
-        // case1 arr[x] in <len, .>
-        // case2 x == i == len
-        int a = x == i ? 0 : Integer.parseInt(s1.substring(i, x));
-        int b = y == j ? 0 : Integer.parseInt(s1.substring(j, y));
-
-        if (a != b) {
-            return a > b ? 1 : -1;
-        }
-
-        i = x + 1; j = y + 1;
-    }
-
-    return 0;
-  }
 }
