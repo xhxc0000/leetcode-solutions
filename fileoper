@@ -1,0 +1,14 @@
+按行写文件
+FileWriter fw = new FileWriter(new File("/home/xhxc/temp.txt"));
+                BufferedWriter bw = new BufferedWriter(fw);
+                bw.write("string");
+                bw.close();
+                fw.close();
+
+按行读文件
+FileReader fr = new FileReader("/home/xhxc/temp.txt");
+BufferedReader br = new BufferedReader(fr);
+String line = "";
+while ((line = br.readLine()) != null) {}
+br.close()
+fr.close();
