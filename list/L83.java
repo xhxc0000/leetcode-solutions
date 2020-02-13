@@ -12,15 +12,10 @@ class Solution {
         ListNode pre = dummy, cur = head;
 
         while (cur != null) {
-            if (cur.next != null && cur.val == cur.next.val) {
-                int val = cur.val;
-                while (cur != null && cur.val == val) cur = cur.next;
-            } else {
-                pre.next = cur;
-                pre = cur;
-                cur = cur.next;
-                pre.next = null;
-            }
+            while (cur.next != null && cur.val == cur.next.val) cur = cur.next;
+            pre.next = cur;
+            pre = cur;
+            cur = cur.next;
         }
 
         return dummy.next;
