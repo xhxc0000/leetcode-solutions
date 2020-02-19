@@ -13,6 +13,7 @@ class Solution {
         if (root == null) return res;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
+
         while (!queue.isEmpty()) {
             int size = queue.size();
             List<Integer> line = new ArrayList<>();
