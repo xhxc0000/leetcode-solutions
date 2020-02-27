@@ -12,8 +12,3 @@ n≤1000000n≤1000000 => O(n)O(n), 以及常数较小的 O(nlogn)O(nlogn) 算�
 n≤10000000n≤10000000 => O(n)O(n)，双指针扫描、kmp、AC自动机、线性筛素数
 n≤109n≤109 => O(n‾√)O(n)，判断质数
 n≤1018n≤1018 => O(logn)O(logn)，最大公约数
-
-作者：yxc
-链接：https://www.acwing.com/blog/content/32/
-来源：AcWing
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
