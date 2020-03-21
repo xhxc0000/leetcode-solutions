@@ -10,4 +10,21 @@ class Solution {
 
         return L;
     }
+
+	// 浮点二分
+	private static double sqrt2(int val) {
+        double L = 0, R = val;
+        final double ACC = 0.0001;
+        double mid = 0;
+        while ((R - L) > ACC) {
+            mid = (L + R) / 2;
+            if (mid * mid > val) {
+                R = mid;
+            } else {
+                L = mid;
+            }
+        }
+
+        return mid;
+    }
 }
